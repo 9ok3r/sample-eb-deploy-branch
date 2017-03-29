@@ -4,4 +4,4 @@ ls
 git checkout master
 yes '' | eb init shippableSample-env -r us-west-2 -p Node.js
 cat .elasticbeanstalk/config.yml
-eb deploy shippableSample-env
+eb deploy shippablesample-env
